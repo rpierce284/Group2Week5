@@ -1,0 +1,28 @@
+/* About.css */
+
+.about-container {
+    display: flex;
+    align-items: flex-start; /* Aligns the content towards the top */
+    justify-content: center;
+    min-height: 100vh; /* Full viewport height */
+    padding-top: 10vh; /* Adds spacing from the top */
+    text-align: center;
+  }
+  
+  .about-content {
+    max-width: 600px;
+    padding: 20px;
+    background-color: #f5f5f5; /* Light background for contrast */
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  }
+  
+  .about-content h2 {
+    margin-bottom: 15px;
+  }
+  
+  .about-content p {
+    line-height: 1.6;
+    color: #333;
+  }
+  
